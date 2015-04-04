@@ -1,0 +1,124 @@
+body {
+    display: inline-block;
+    /*max-width: 1200px;*/
+}
+header {
+    position: relative;
+    background: url(media/honginatcamp.jpg);
+    no-repat center center fixed;
+    -webkit-backround-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    opacity: .99;
+
+}
+section.aboveFoldGreeting {
+    background-color:black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: georgia;
+    color:white;
+    
+}
+
+.top-center {
+    position: absolute; 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    background-color: white; opacity: .75;
+    font-weight: bold;
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.bottom-center {
+    position: absolute; 
+    bottom: 3%;
+    text-align: center;
+    width: 100%;
+    font-weight: bold; color: gray;
+    background-color: white; opacity: .75;
+
+}
+
+.nav {
+    float: right;
+    padding:5px;
+    font-size: 14px;	      
+}
+section {
+    width:100%;
+    /*float:left;*/
+    padding:0px;	 	 
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+section.data {
+    background-color: #FFFFDB;
+    /*height:300px;*/
+    width:100%;
+    float:left;
+    padding:0px;
+}
+
+#selection {
+    color: gray;
+    height:120px;
+    width: 100%;
+    /*table-layout: auto;*/
+    /*border: 1px solid black;*/
+    /*padding: 5px;*/
+    text-align: left;
+    float: right;
+    
+}
+
+table, td, th {
+    border: 1px solid black;
+    padding: 5px;
+
+}
+table {
+    border-collapse: collapse;
+}
+
+.images {
+    display: inline-block;
+    border-radius: 30%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+a {
+    display: inline;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+form {
+    padding-top: 10px;
+}
+
+
+
+.line-separator{
+    height:20px;
+    border-bottom:1px solid #313030;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
